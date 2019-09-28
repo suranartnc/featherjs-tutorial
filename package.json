@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/suranartnc/featherjs-tutorial/issues"
   },
-  "homepage": "https://github.com/suranartnc/featherjs-tutorial#readme"
+  "homepage": "https://github.com/suranartnc/featherjs-tutorial#readme",
+  "dependencies": {
+    "@feathersjs/feathers": "^4.3.3"
+  }
 }
