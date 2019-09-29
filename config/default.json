@@ -12,7 +12,8 @@
     "secret": "IdDO1zbMprGWidboSuzAaxcK1fQ=",
     "authStrategies": [
       "jwt",
-      "local"
+      "local",
+      "oauth"
     ],
     "jwtOptions": {
       "header": {
@@ -26,6 +27,13 @@
     "local": {
       "usernameField": "email",
       "passwordField": "password"
+    },
+    "oauth": {
+      "redirect": "/",
+      "github": {
+        "key": "b1016ca4d66f19e0cee0",
+        "secret": "9bd94b57b1149d391a4063c9875dd3a527ddc790"
+      }
     }
   },
   "nedb": "../data"

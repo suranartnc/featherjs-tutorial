@@ -36,4 +36,4 @@ const main = async () => {
   await client.logout();
 };
 
-main();
+// main();
